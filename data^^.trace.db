@@ -1,0 +1,8 @@
+2023-05-24 19:23:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "INGREDIENT" nicht gefunden (diese Datenbank ist leer)
+Table "INGREDIENT" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.description,i1_0.name from public.ingredient i1_0 [42104-214]
+2023-05-24 19:23:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "INGREDIENT" nicht gefunden (diese Datenbank ist leer)
+Table "INGREDIENT" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.description,i1_0.name from public.ingredient i1_0 [42104-214]

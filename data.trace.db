@@ -959,3 +959,43 @@ select r1_0.id,r1_0.description,r1_0.name,r1_0.recipe_type from public.recipe r1
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "RECIPE" nicht gefunden (diese Datenbank ist leer)
 Table "RECIPE" not found (this database is empty); SQL statement:
 select r1_0.id,r1_0.description,r1_0.name,r1_0.recipe_type from public.recipe r1_0 where r1_0.id=? [42104-214]
+2023-05-24 19:23:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "INGREDIENT" nicht gefunden (diese Datenbank ist leer)
+Table "INGREDIENT" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.description,i1_0.name from public.ingredient i1_0 [42104-214]
+2023-05-24 19:24:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "INGREDIENT" nicht gefunden (diese Datenbank ist leer)
+Table "INGREDIENT" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.description,i1_0.name from public.ingredient i1_0 where i1_0.id=? [42104-214]
+2023-05-24 19:24:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "INGREDIENT" nicht gefunden (diese Datenbank ist leer)
+Table "INGREDIENT" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.description,i1_0.name from public.ingredient i1_0 where i1_0.id=? [42104-214]
+2023-05-24 19:24:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "INGREDIENT" nicht gefunden (diese Datenbank ist leer)
+Table "INGREDIENT" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.description,i1_0.name from public.ingredient i1_0 [42104-214]
+2023-05-24 19:24:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "INGREDIENT" nicht gefunden (diese Datenbank ist leer)
+Table "INGREDIENT" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.description,i1_0.name from public.ingredient i1_0 [42104-214]
+2023-05-24 19:25:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "INGREDIENT" nicht gefunden (diese Datenbank ist leer)
+Table "INGREDIENT" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.description,i1_0.name from public.ingredient i1_0 where i1_0.id=? [42104-214]
+2023-05-24 19:26:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "RECIPE" nicht gefunden (diese Datenbank ist leer)
+Table "RECIPE" not found (this database is empty); SQL statement:
+select r1_0.id,r1_0.description,r1_0.ingredients,r1_0.name,r1_0.recipe_type,r1_0.steps from public.recipe r1_0 where r1_0.id=? [42104-214]
+2023-05-24 19:29:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "RECIPE" nicht gefunden (diese Datenbank ist leer)
+Table "RECIPE" not found (this database is empty); SQL statement:
+select r1_0.id,r1_0.description,r1_0.ingredients,r1_0.name,r1_0.recipe_type,r1_0.steps from public.recipe r1_0 where r1_0.id=? [42104-214]
+2023-05-24 19:33:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "RECIPE" nicht gefunden (diese Datenbank ist leer)
+Table "RECIPE" not found (this database is empty); SQL statement:
+select r1_0.id,r1_0.description,r1_0.ingredients,r1_0.name,r1_0.recipe_type,r1_0.steps from public.recipe r1_0 where r1_0.id=? [42104-214]
+2023-05-24 19:46:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "RECIPE" nicht gefunden (diese Datenbank ist leer)
+Table "RECIPE" not found (this database is empty); SQL statement:
+select r1_0.id,r1_0.description,r1_0.ingredients,r1_0.name,r1_0.recipe_type,r1_0.steps from public.recipe r1_0 where r1_0.id=? [42104-214]
