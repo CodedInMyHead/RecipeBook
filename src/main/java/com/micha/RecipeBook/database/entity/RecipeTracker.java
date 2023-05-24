@@ -7,6 +7,7 @@ import java.util.ArrayList;
 
 @Entity
 @Data
+@Table(schema = "public", name = "RecipeTracker")
 public class RecipeTracker {
 
     @Id

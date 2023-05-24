@@ -1,11 +1,8 @@
-package com.micha.RecipeBook.database.entity;
+package com.micha.RecipeBook.common;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 
-@Entity
 @Data
 public class Step {
 

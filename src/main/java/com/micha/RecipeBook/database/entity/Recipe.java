@@ -1,6 +1,5 @@
 package com.micha.RecipeBook.database.entity;
 
-import com.micha.RecipeBook.common.RecipePayload;
 import com.micha.RecipeBook.common.RecipeType;
 import jakarta.persistence.*;
 import lombok.Data;
@@ -9,6 +8,7 @@ import java.util.ArrayList;
 
 @Entity
 @Data
+@Table(schema = "public", name = "Recipe")
 public class Recipe {
 
     @Id
@@ -22,24 +22,12 @@ public class Recipe {
     private String description;
 
     @Column(nullable = false)
-    @ManyToMany
-    private ArrayList<Step> steps;
+    private ArrayList<Integer> steps;
 
     @Column(nullable = false)
-    @ManyToMany
-    private ArrayList<Ingredient> ingredients;
+    private ArrayList<Integer> ingredients;
 
     @Column
     @Enumerated(EnumType.STRING)
     private RecipeType recipeType;
-
-    public static Recipe of(RecipePayload recipePayload) {
-        final Recipe recipe = new Recipe();
-        recipe.steps = recipePayload.getSteps();
-        recipe.recipeType = recipePayload.getRecipeType();
-        recipe.ingredients = recipePayload.getIngredients();
-        recipe.name = recipePayload.getName();
-        recipe.description = recipePayload.getDescription();
-        return recipe;
-    }
 }
